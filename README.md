@@ -3,9 +3,9 @@ Customer Attrition Data Analysis
 
 This project uses Python and Pandas to explore a customer dataset containing 10,127 records and 23 columns. The dataset contains information about customer demographics, account information, credit information, and transaction activity. The main goal of the project was to organize the data, explore customer characteristics, and investigate patterns associated with customer attrition.
 
-![Data Screenshot](screenshots/churn-analysis-data.png)
-
 The project provided an opportunity to practice working with DataFrames, examining different data types, grouping records, calculating statistics, and creating visualizations to communicate findings.
+
+![Data Screenshot](screenshots/churn-analysis-data.png)
 
 2. Dataset and Tools
 
@@ -26,6 +26,7 @@ I also created visualizations to make the results easier to interpret.
 One of the main goals of the analysis was to identify patterns that could help explain customer attrition. I compared different customer attributes and transaction behaviors between the two attrition groups.
 
 The visualizations helped make differences in the data easier to see than looking only at raw DataFrame output. The analysis also demonstrated how Pandas can be used to transform a large dataset into smaller summaries that are easier to interpret.
+
 
 5. Challenges and Debugging
 
