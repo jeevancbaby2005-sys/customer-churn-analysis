@@ -5,6 +5,8 @@ This project uses Python and Pandas to explore a customer dataset containing 10,
 
 The project provided an opportunity to practice working with DataFrames, examining different data types, grouping records, calculating statistics, and creating visualizations to communicate findings.
 
+Here is a screenshot of the dataset
+
 ![Data Screenshot](screenshots/churn-analysis-data.png)
 
 2. Dataset and Tools
@@ -27,14 +29,29 @@ One of the main goals of the analysis was to identify patterns that could help e
 
 The visualizations helped make differences in the data easier to see than looking only at raw DataFrame output. The analysis also demonstrated how Pandas can be used to transform a large dataset into smaller summaries that are easier to interpret.
 
+5. Model Performance and Evaluation
 
-5. Challenges and Debugging
+After exploring the dataset and identifying patterns associated with customer attrition, I developed and evaluated three machine learning models: Baseline, Logistic Regression, and Random Forest.
+
+I used the test dataset to compare the models based on accuracy, precision, recall, F1-score, and ROC-AUC. I also examined confusion matrices to understand how accurately each model predicted customers who churned and those who remained with the company.
+
+The Random Forest model achieved the strongest overall performance, with 95.18% accuracy, 88.41% precision, 80.59% recall, an F1-score of 84.32%, and a ROC-AUC score of 98.36%.
+
+Logistic Regression achieved 85.31% accuracy and slightly higher churn recall at 82.06%, while the baseline model failed to identify customers in the churn class.
+
+The results suggest that Random Forest was the strongest overall model for predicting customer attrition, while Logistic Regression may also be useful when identifying a higher proportion of potential churners is a priority.
+
+Model Evaluation Screenshot
+
+![Data Screenshot](screenshots/churn-analysis-regression.png)
+
+6. Challenges and Debugging
 
 One challenge was understanding the large number of columns in the original dataset. The initial DataFrame information output was lengthy and difficult to interpret because there were many variables.
 
 I addressed this by examining individual columns and grouping related variables together during the analysis. Another challenge was deciding which variables would provide the most useful comparisons for understanding customer behavior.
 
-6. What I Learned
+7. What I Learned
 
 This project improved my experience working with Python DataFrames and real-world-style datasets. I practiced inspecting data, grouping records, calculating statistics, and creating visualizations.
 
